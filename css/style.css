@@ -1,0 +1,81 @@
+:root {
+    --main-color: #e75555;
+    --secondary-color: #385a7c;
+    --accent-color: #f4df62;
+    --main-bg: #e9f5f8;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: var(--main-bg) ;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+    color: var(--main-color);
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.header__icon {
+    width: 50px;
+}
+
+.header__text {
+    font-family: 'Fredoka One', cursive;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    padding-left: 20px;
+}
+
+div {
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.main__pic {
+    width: 525px;
+}
+
+.initiative__portfolio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project__img {
+    width: 200px;
+}
+
+.devs {
+    display: flex;
+}
+
+.devs__pic {
+    width: 80px;
+}
+
+.kitties__container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: var(--accent-color);
+}
+
+.kitties__text {
+    padding: 20px;
+}
