@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Comfortaa', cursive;
-    background-color: var(--main-bg) ;
+    background-color: var(--main-bg);
 }
 
 h1 {
@@ -25,12 +25,25 @@ a {
     color: var(--secondary-color);
 }
 
+div {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .header__icon {
     width: 50px;
 }
 
 .header__text {
     font-family: 'Fredoka One', cursive;
+}
+
+.nav__container {
+    margin: auto;
 }
 
 .nav__list {
@@ -41,16 +54,35 @@ a {
     padding-left: 20px;
 }
 
-div {
-    padding: 20px;
-}
-
 .main {
     display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.main__info {
+    width: 40%;
+    margin-top: 100px;
+    line-height: 30px;
+}
+
+
+.main__btn {
+    border-radius: 5px;
+    padding: 8px 28px;
+    font-size: 20px;
+    background-color: var(--main-color);
+    margin: 20px 150px;
+}
+
+.btn__link {
+    color: var(--main-bg);
 }
 
 .main__pic {
     width: 525px;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
 }
 
 .initiative__portfolio {
